@@ -1,0 +1,10 @@
+2023-11-07T22:54:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_enqueue_emoji_styles" not found or invalid function name in C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php:310
+Stack trace:
+#0 C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\e-shop\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\e-shop\wp-admin\admin-header.php(118): do_action('admin_enqueue_s...', 'post-new.php')
+#3 C:\xampp\htdocs\e-shop\wp-admin\edit-form-blocks.php(309): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\e-shop\wp-admin\post-new.php(72): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\e-shop\wp-includes\class-wp-hook.php on line 310
+
